@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.TMS470.Default.623831646">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.TMS470.Default.623831646" moduleId="org.eclipse.cdt.core.settings" name="MCU+Image">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.SysConfigErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Default.623831646" name="MCU+Image" parent="com.ti.ccstudio.buildDefinitions.TMS470.Default">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Default.623831646." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain.379147321" name="TI Build Tools" secondaryOutputs="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.208298280;com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.259935878" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug.160702061">
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1434833675" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex M.CC3220S"/>
+								<listOptionValue builtIn="false" value="DEVICE_CORE_ID="/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="PRODUCTS=com.ti.SIMPLELINK_CC32XX_SDK:7.10.0.13;sysconfig:1.12.0;"/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={&quot;com.ti.SIMPLELINK_CC32XX_SDK&quot;:[&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_INCLUDE_PATH}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARY_PATH}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARIES}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_SYMBOLS}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_SYSCONFIG_MANIFEST}&quot;],&quot;sysconfig&quot;:[&quot;${SYSCONFIG_TOOL_INCLUDE_PATH}&quot;,&quot;${SYSCONFIG_TOOL_LIBRARY_PATH}&quot;,&quot;${SYSCONFIG_TOOL_LIBRARIES}&quot;,&quot;${SYSCONFIG_TOOL_SYMBOLS}&quot;,&quot;${SYSCONFIG_TOOL_SYSCONFIG_MANIFEST}&quot;]}"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1623760112" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="TICLANG_2.1.3.LTS" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.targetPlatformDebug.1341020850" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.targetPlatformDebug"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.builderDebug.427618367" name="GNU Make.MCU+Image" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.compilerDebug.970957589" name="Arm Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.compilerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE.166626072" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE.MLITTLE_ENDIAN" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.INCLUDE_PATH.44112767" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/${ConfigName}"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/source"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos/posix"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.DEFINE.720732338" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="DeviceFamily_CC3220"/>
+									<listOptionValue builtIn="false" value="NORTOS_SUPPORT"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL.741301222" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL.z" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG.1462562031" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG.GDWARF_3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU.993024535" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU.cortex-m4" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OTHER_FLAGS.1589131208" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OTHER_FLAGS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-march=armv7e-m"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB.1146584699" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB.MTHUMB" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI.157096905" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI.soft" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU.278843873" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU.none" valueType="enumerated"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__C_SRCS.625593322" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__CPP_SRCS.1209233638" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM_SRCS.466815273" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM2_SRCS.1570694558" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug.160702061" name="Arm Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.OUTPUT_FILE.1671690628" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.OUTPUT_FILE" useByScannerDiscovery="false" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.MAP_FILE.1272769683" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.MAP_FILE" useByScannerDiscovery="false" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.XML_LINK_INFO.2023541060" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.XML_LINK_INFO" useByScannerDiscovery="false" value="${ProjName}_linkInfo.xml" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DISPLAY_ERROR_NUMBER.1642368621" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP.1082745861" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.REREAD_LIBS.1975043809" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.REREAD_LIBS" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.SEARCH_PATH.2087745643" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/source"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos"/>
+									<listOptionValue builtIn="false" value="${PROJECT_BUILD_DIR}/syscfg"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.LIBRARY.1687588785" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="ti_utils_build_linker.cmd.genlibs"/>
+									<listOptionValue builtIn="false" value="ti/devices/cc32xx/driverlib/ticlang/Release/driverlib.a"/>
+									<listOptionValue builtIn="false" value="libc.a"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD_SRCS.1808294656" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD2_SRCS.870238606" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__GEN_CMDS.113772436" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.hex.23349156" name="Arm Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.hex"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.objcopy.550222432" name="Arm Objcopy Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.objcopy"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.sysConfig.944646309" name="SysConfig" superClass="com.ti.ccstudio.buildDefinitions.sysConfig">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS.1877539731" superClass="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_SYSCONFIG_MANIFEST}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_SYSCONFIG_MANIFEST}"/>
+								</option>
+							</tool>
+							<tool command="&quot;${CG_TOOL_ROOT}/bin/tiarmobjcopy&quot;" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.552855313" name="TI Arm ObjCopy" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS.256018258" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=" -O binary --only-section .text --only-section .const --only-section .cinit --only-section .rodata --only-section .resetVecs &quot;${BuildArtifactFileName}&quot; &quot;${BuildArtifactFileBaseName}.bin&quot; "/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES.1521194364" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileName}"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES.1363023897" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileBaseName}.bin"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE.305650687" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<outputType buildVariable="CUSTOM_TOOL_OUTPUTS_208298280" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.208298280" name="Post-build Tool Output Files" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType"/>
+							</tool>
+							<tool command="&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/source/ti/drivers/net/imagecreator/bin/SLImageCreator.exe&quot;" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.1417323872" name="Image Creator" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS.1646363145" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=" syscfg create_image --sdk_path &quot;${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}&quot; --json &quot;${BuildDirectory}/syscfg/ti_drivers_net_wifi_config.json&quot; --file &quot;${BuildDirectory}/syscfg/${BuildArtifactFileBaseName}.sli&quot; --mcu &quot;${BuildDirectory}/${BuildArtifactFileBaseName}.bin&quot; "/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES.2097976650" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileBaseName}.bin"/>
+									<listOptionValue builtIn="false" value="syscfg/ti_drivers_net_wifi_config.json"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES.564856090" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="syscfg/${BuildArtifactFileBaseName}.sli"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE.24069557" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<outputType buildVariable="CUSTOM_TOOL_OUTPUTS_259935878" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.259935878" name="Post-build Tool Output Files" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.400244155">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.400244155" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.SysConfigErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.400244155" name="Debug" parent="com.ti.ccstudio.buildDefinitions.TMS470.Debug">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.400244155." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain.1239080712" name="TI Build Tools" secondaryOutputs="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.1970593443" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug.220227957">
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1304654949" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=Cortex M.CC3220S"/>
+								<listOptionValue builtIn="false" value="DEVICE_CORE_ID="/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=6.1.3"/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+								<listOptionValue builtIn="false" value="PRODUCTS=com.ti.SIMPLELINK_CC32XX_SDK:7.10.0.13;sysconfig:1.12.0;"/>
+								<listOptionValue builtIn="false" value="PRODUCT_MACRO_IMPORTS={&quot;com.ti.SIMPLELINK_CC32XX_SDK&quot;:[&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_INCLUDE_PATH}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARY_PATH}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARIES}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_SYMBOLS}&quot;,&quot;${COM_TI_SIMPLELINK_CC32XX_SDK_SYSCONFIG_MANIFEST}&quot;],&quot;sysconfig&quot;:[&quot;${SYSCONFIG_TOOL_INCLUDE_PATH}&quot;,&quot;${SYSCONFIG_TOOL_LIBRARY_PATH}&quot;,&quot;${SYSCONFIG_TOOL_LIBRARIES}&quot;,&quot;${SYSCONFIG_TOOL_SYMBOLS}&quot;,&quot;${SYSCONFIG_TOOL_SYSCONFIG_MANIFEST}&quot;]}"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1796754099" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="TICLANG_2.1.3.LTS" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.targetPlatformDebug.1841666571" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.targetPlatformDebug"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.builderDebug.1790987339" name="GNU Make.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.compilerDebug.1419429479" name="Arm Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.compilerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG.221444651" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.GENERATE_DWARF_DEBUG.GDWARF_3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE.196877027" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.ENDIAN_NESS__BIG_LITTLE.MLITTLE_ENDIAN" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.INCLUDE_PATH.688896011" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_INCLUDE_PATH}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
+									<listOptionValue builtIn="false" value="${PROJECT_ROOT}/${ConfigName}"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/source"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos/posix"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.DEFINE.581950286" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_SYMBOLS}"/>
+									<listOptionValue builtIn="false" value="DeviceFamily_CC3220"/>
+									<listOptionValue builtIn="false" value="NORTOS_SUPPORT"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL.911797861" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OPT_LEVEL.z" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU.1213812496" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MCPU.cortex-m4" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OTHER_FLAGS.2140088524" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.OTHER_FLAGS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-march=armv7e-m"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB.1633720676" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.SELECT_PROCESSOR_MODE__ARM_THUMB.MTHUMB" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI.368030919" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFLOAT_ABI.soft" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU.1599202319" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compilerID.MFPU.none" valueType="enumerated"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__C_SRCS.1684652172" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__CPP_SRCS.638655905" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM_SRCS.1291392281" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM2_SRCS.578643038" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug.220227957" name="Arm Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.OUTPUT_FILE.551723420" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.OUTPUT_FILE" useByScannerDiscovery="false" value="${ProjName}.out" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.MAP_FILE.1802931014" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.MAP_FILE" useByScannerDiscovery="false" value="${ProjName}.map" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.XML_LINK_INFO.437419420" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.XML_LINK_INFO" useByScannerDiscovery="false" value="${ProjName}_linkInfo.xml" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DISPLAY_ERROR_NUMBER.825940854" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP.1181397253" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.REREAD_LIBS.571172218" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.REREAD_LIBS" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.SEARCH_PATH.218409637" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_LIBRARY_PATH}"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/source"/>
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_INSTALL_DIR}/kernel/nortos"/>
+									<listOptionValue builtIn="false" value="${PROJECT_BUILD_DIR}/syscfg"/>
+									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.LIBRARY.176731190" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_LIBRARIES}"/>
+									<listOptionValue builtIn="false" value="ti_utils_build_linker.cmd.genlibs"/>
+									<listOptionValue builtIn="false" value="ti/devices/cc32xx/driverlib/ticlang/Release/driverlib.a"/>
+									<listOptionValue builtIn="false" value="libc.a"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD_SRCS.969460546" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD2_SRCS.203354321" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__GEN_CMDS.1994475415" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.hex.20470840" name="Arm Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.hex"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.objcopy.1742112533" name="Arm Objcopy Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_TICLANG_2.1.objcopy"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.sysConfig.1658303785" name="SysConfig" superClass="com.ti.ccstudio.buildDefinitions.sysConfig">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS.1523780324" superClass="com.ti.ccstudio.buildDefinitions.sysConfig.PRODUCTS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${COM_TI_SIMPLELINK_CC32XX_SDK_SYSCONFIG_MANIFEST}"/>
+									<listOptionValue builtIn="false" value="${SYSCONFIG_TOOL_SYSCONFIG_MANIFEST}"/>
+								</option>
+							</tool>
+							<tool command="&quot;${CG_TOOL_ROOT}/bin/tiarmobjcopy&quot;" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.1264938995" name="TI Arm ObjCopy" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS.116274739" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OTHER_FLAGS" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=" -O binary --only-section .text --only-section .const --only-section .cinit --only-section .rodata --only-section .resetVecs &quot;${BuildArtifactFileName}&quot; &quot;${BuildArtifactFileBaseName}.bin&quot; "/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES.776557723" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.INPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileName}"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES.277965220" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.OUTPUT_FILES" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileBaseName}.bin"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE.1985645981" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.TOOL_ENABLE" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<outputType buildVariable="CUSTOM_TOOL_OUTPUTS_1970593443" id="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType.1970593443" name="Post-build Tool Output Files" superClass="com.ti.ccstudio.buildDefinitions.customPostBuildTool.outputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="gpiointerrupt_CC3220S_LAUNCHXL_nortos_ticlang.com.ti.ccstudio.buildDefinitions.TMS470.ProjectType.503326210" name="TMS470" projectType="com.ti.ccstudio.buildDefinitions.TMS470.ProjectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
+</cproject>
